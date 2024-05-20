@@ -17,6 +17,10 @@ h2 {
     color: rgb(178, 148, 14);
 }
 
+h1{
+    color:aliceblue;
+}
+
 #singup {
     background-color: aqua;
     color: red;
@@ -78,4 +82,21 @@ main utton:hover{
 
 .post:nth-last-of-type(2n){
     background-color: steelblue;
+}
+
+h2::first-letter{
+    font-size: 50px;
+    color: yellowgreen;
+}
+
+p::first-line{
+    color:aliceblue;
+}
+
+p::selection{
+    background-color:rgb(87, 87, 2)
+}
+
+button{
+    background-color: rgb(203, 180, 52) !important;
 }

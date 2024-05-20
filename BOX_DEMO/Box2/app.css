@@ -1,0 +1,12 @@
+h1{
+    background-color: aqua;
+    border:1px solid black;
+    display: inline;
+}
+
+span{
+    background-color:rgb(7, 128, 234);
+    border:1px solid red;
+    display: block;
+    opacity: 0.8;
+}
